@@ -1,5 +1,5 @@
 # libpi
-`libpi` calculates an approximation of ![](doc/pi.png).
+`libpi` calculates an approximation of ![](doc/pi-symbol.png).
 
 ### Method
 The approximation is done using [Nilakantha Series](https://en.wikipedia.org/wiki/Pi)
