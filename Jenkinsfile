@@ -3,12 +3,12 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        echo 'I will build'
+        sh './jenkins/build.sh'
       }
     }
     stage('Test') {
       steps {
-        echo 'I will test'
+        sh './jenkins/test.sh'
       }
     }
   }
