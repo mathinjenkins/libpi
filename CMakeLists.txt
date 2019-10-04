@@ -64,5 +64,3 @@ install(FILES
 export(EXPORT pi-targets FILE ${CMAKE_CURRENT_BINARY_DIR}/PiTargets.cmake NAMESPACE Pi::)
 
 export(PACKAGE Pi)
-
-add_subdirectory(test)

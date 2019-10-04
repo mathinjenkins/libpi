@@ -4,8 +4,4 @@ include(CMakeFindDependencyMacro)
 list(APPEND CMAKE_MODULE_PATH ${Pi_CMAKE_DIR})
 list(REMOVE_AT CMAKE_MODULE_PATH -1)
 
-if(NOT TARGET Pi::Pi)
-    include("${Pi_CMAKE_DIR}/PiTargets.cmake")
-endif()
-
 set(Pi_LIBRARIES Pi::Pi)
